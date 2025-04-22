@@ -22,6 +22,7 @@
   padding: 18px 27px; /* 18px font size × 1.5 = 27px horizontal padding */
   border-right: 2px solid white;
   border-left: 2px solid white;
+	cursor:pointer;
 }
 
 /* Remove border on the right of last left item and left of first right item */
