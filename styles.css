@@ -1,1 +1,40 @@
-/*  your css code here. If applicable */
+/* NAVIGATION BAR */
+.navbar {
+  width: 100%;
+  background-color: #6e072d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+
+/* Unordered lists - remove default spacing */
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* List items - apply padding and border */
+.navbar li {
+  padding: 18px 27px; /* 18px font size × 1.5 = 27px horizontal padding */
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+}
+
+/* Remove border on the right of last left item and left of first right item */
+.nav-left .no-border-right {
+  border-right: none;
+}
+
+.nav-right .no-border-left {
+  border-left: none;
+}
+
+/* Hover effect */
+.navbar li:hover {
+  background-color: #b90e4d;
+  cursor: pointer;
+}
